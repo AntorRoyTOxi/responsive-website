@@ -1,0 +1,360 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter&family=Merriweather&family=Roboto:wght@300&family=Work+Sans:wght@400;500;600;800&display=swap');
+  
+  
+    /* this is shared option  */
+   .primary-btn{ 
+    border-radius: 8px;
+    background: #FF900E; 
+     color: #fff; 
+      font-size: 1.2rem; 
+       font-weight: 600; 
+     padding: 20px 25px; 
+      border: none; 
+       cursor: pointer;
+   }
+  
+  *{ 
+    
+    font-family: 'Work Sans', sans-serif;
+   } 
+
+
+   /* header part work */
+    header{ 
+        background: rgba(255, 144, 14, 0.10); 
+         padding:  50px 240px;
+    } 
+    nav{ 
+         display: flex; 
+          justify-content: space-between;  
+           align-items: center;
+          
+    } 
+      .nav-title, .some-facts, .sponsor-heading,.feature-describe-heading{ 
+         color: #131313; 
+          font-size: 2.8rem; 
+           font-weight: 700;
+      }
+ nav ul{ 
+     display: flex; 
+     
+ } 
+   nav ul li{ 
+     list-style:none; 
+     margin-right: 30px;
+   } 
+    nav ul a { 
+         text-decoration: none; 
+          color: #424242; 
+           font-size: 1rem; 
+            font-weight: 500;
+    }  
+
+     /* this is banner part  */
+      
+      .banner{ 
+         width: 864px; 
+      text-align: center;
+      } 
+       .banner-title{ 
+         font-size: 4rem;
+         font-weight: 700; 
+          color: #131313;
+       } 
+        .banner-details ,.there, .sponcor-paragraph , .feature-describe-pera{ 
+             color: #727272;
+        } 
+         .banner-img>img{  
+             margin-top: 20px;
+             width:100%;
+         }  
+          /* this is main section part  */   
+
+ /* .main-part{  
+     max-width: 1440px;
+     margin: 0 240px;
+ }
+
+
+
+            .future{ 
+                 display: flex;
+                  margin-top: 100px;
+                   align-items: center; 
+                  
+            }  
+             .future-picture{  
+                 
+                 display: grid; 
+                  grid-template-columns: repeat(2,1fr); 
+                   gap: 15px;
+             } 
+             
+             .future-details{ 
+                 padding-left: 72px;
+             }
+           .future-heading{ 
+            width: 468px;
+           
+           color:  #131313;
+           font-size: 2.8rem;
+           font-weight: 500;
+    } 
+      .quick{ 
+         color: #727272;
+      } 
+       .feature{ 
+         color: #FF900E;
+       } 
+        .future-pera-details{ 
+          
+            color:  #727272;
+             font-size: 1rem;
+            font-weight: 400;
+
+        } */
+              
+        .future{ 
+          display: flex; 
+           gap: 
+           50px; 
+            margin-left: 100px;
+             margin-top: 50px; 
+              align-items: center;
+        }  
+         .future-picture{ 
+           display: grid; 
+            grid-template-columns: repeat(2,1fr); 
+             gap: 10px;
+         }   
+          .future-heading{ 
+             color: #727272; 
+              font-size: 2.5rem; 
+               font-weight: 800;
+          } 
+          .quick{
+             color: #FF900E; 
+              font-size: 4rem;
+          } 
+           .feature{ 
+             color: black; 
+              font-size: 2.8rem; 
+               font-weight: 800;
+           }
+           .future-pera-details{ 
+             color: #727272;
+           }
+          
+
+
+
+
+                 /* this is facts part  */
+         .some-facts{ 
+             margin-bottom: 0;
+         }
+                .container-div{ 
+                     display: flex; 
+                      justify-content: space-around;
+                }
+        .contaner-award{ 
+            border-radius: 8px;
+            border: 1px solid #FF900E; 
+             padding: 40px 30px; 
+              text-align: center;  
+               margin-top: 25px;
+        }  
+         .contaner-award,img{ 
+             margin-bottom: 0;
+         }
+         .number{  
+             margin-top: 5px;
+             font-size: 2.25rem; 
+              font-weight: 600; 
+               margin-bottom: 5px;
+         } 
+          .container-detail{ 
+             margin-top: 5px; 
+             color: #727272; 
+              font-size: 1.2rem; 
+               font-weight: 600;
+          } 
+           .some{ 
+             padding: 40px 50px;
+           } 
+            .sponsor-title{ 
+               text-align: center;
+            } 
+             .sponsor-heading{
+               margin-bottom: 0;
+             }
+              .company{ 
+                 display: flex;              
+                    justify-content: space-around; 
+                     margin-top: 25px;
+              } 
+               .company-img{  
+              
+                 width: 155px; 
+                  height: 50px;
+               } 
+                .feature-plan{  
+                    margin: 100px; 
+                   display: flex; 
+                    gap: 100px;
+                } 
+                 .feature-describe-heading{ 
+                   margin-bottom: 0; 
+                    border-left: 4px solid #FF900E; 
+                     padding-left: 15px;
+                 } 
+                   .dexktop{ 
+                    border-radius: 8px;
+                    background: #FFF;
+                    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+                    padding: 30px 42px 30px 30px; 
+                     margin-bottom: 20px;
+                   } 
+                    .dexktop-heading{ 
+                       font-size: 1.25rem;
+                        font-weight: 600; 
+                         margin-bottom: 5px; 
+                         
+                    }  
+                     .feature-img img{  
+                       width: 700px; 
+                       height: 100%;
+                    margin-left: 90px;
+                     }
+                     
+                     .ten-years-old{ 
+                      border-radius: 8px;
+                       background: #FF900E; 
+                        width: 342px; 
+                         text-align: center; 
+                         padding: 10px; 
+                           position: relative; 
+                            top: -150px; 
+                            
+                          
+                     } 
+                       .ten-years-experience{ 
+                         color: white; 
+                          font-size: 4rem; 
+                           font-weight: 700; 
+                            margin: 10px 0 0 0;
+                           
+                       } 
+                         .experience{ 
+                           margin-top: 5px;
+                            padding-bottom: 25px; 
+                             color: white; 
+                              font-size: 1.5rem;
+                           
+                         }
+
+
+
+
+
+                /* reponsive website  */ 
+
+
+
+                 /* this is header part  */
+                 @media screen and ( max-width:576px) { 
+                   body{ 
+                    margin: 0 8px;
+                   }
+                     header{ 
+                         padding: 0px;
+                     }  
+                     
+                      .banner{ 
+                         width: 100%; 
+                       
+                      } 
+                       nav{ 
+                         flex-direction: column;
+                       } 
+                       .container-div, .company , .feature-plan{ 
+                             flex-direction: column;
+                        }
+                        .company{ 
+                             align-items: center; 
+                              gap: 25px;
+                        }   
+
+
+                         .feature-img> img{ 
+                           width: 100%;
+                            margin-left: 0;
+                         } 
+                         .feature-plan{  
+                           flex-direction: column;
+                            margin: 10px ; 
+
+                            gap: 10px;
+                         }
+                         .ten-years-old{  
+                           position: relative; 
+                           top : 10px;
+                             width: 100%; 
+                              padding: 0;
+                         } 
+                          
+
+                          .future{ 
+                             flex-direction: column-reverse;
+                               margin-left: 0; 
+                                margin-top: 0; 
+                                 gap: 35px;
+                          } 
+                           .future-picture{ 
+                             grid-template-columns: 1fr;
+                           }
+
+                       
+                          
+                        }
+                   
+                       
+                    
+                   
+
+
+                  /* tablet and mediam device  */ 
+                   @media screen and (min-width:576px) and  (max-width:960px) {
+                    header{ 
+                        padding: 0;
+                    } 
+                     .banner{ 
+                        width: 100%; 
+                      
+                     } 
+                      nav,.company{ 
+                        flex-direction: column;
+                      }
+                        .company{ 
+                           align-items: center; 
+                            gap: 35px;
+                        }
+                        .feature-plan{
+                           flex-direction: column;
+                        }
+                        .feature-img img{ 
+                          margin-left: 0;
+                       }
+                       .ten-years-old{  
+                        position: relative; 
+                        top : 10px;
+                          width: 100%; 
+                           padding: 0;}
+                     
+                    
+
+                      .future{ 
+                        flex-direction: column-reverse; 
+                         gap: 20px;}
+                      }
